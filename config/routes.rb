@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get 'users/new'
-
   root             'static_pages#home'
   get 'help'    => 'static_pages#help'
   get 'about'   => 'static_pages#about'
@@ -61,4 +59,3 @@ end
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
